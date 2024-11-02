@@ -1,112 +1,35 @@
-/* Configuración general */
-* {
+/* Fondo de la página */
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000; /* Fondo negro */
-    color: #f0d75d; /* Texto amarillo */
+/* Contenedor principal con bordes */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #800020; /* Bordo */
 }
 
 /* Encabezado */
-header {
-    background-color: #7b1f1f; /* Bordó */
-    color: #f0d75d;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 3px solid #f0d75d; /* Línea amarilla */
-}
-
-nav {
-    background-color: #000;
-    padding: 10px 0;
-    border-bottom: 3px solid #7b1f1f; /* Bordó */
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #f0d75d;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #7b1f1f;
-}
-
-/* Sección de bienvenida */
-section#inicio {
-    padding: 60px 0;
-    background-color: #1a1a1a;
-    text-align: center;
-    border: 2px solid #7b1f1f;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-section#inicio h2 {
-    color: #f0d75d;
-    margin-bottom: 20px;
-}
-
-section#inicio p {
-    max-width: 600px;
-    margin: 0 auto 30px;
-}
-
-section#inicio .btn {
-    background-color: #7b1f1f;
-    color: #f0d75d;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-section#inicio .btn:hover {
-    background-color: #f0d75d;
-    color: #000;
-}
-
-/* Secciones internas */
-section {
-    padding: 60px 0;
-    background-color: #1a1a1a;
-    border: 2px solid #7b1f1f; /* Bordó */
-    margin: 20px;
-    border-radius: 8px;
-}
-
-section h2 {
-    text-align: center;
-    color: #f0d75d;
-    margin-bottom: 20px;
-}
-
-.container {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto;
+h1, h2 {
+    color: yellow;
     text-align: center;
 }
 
-/* Pie de página */
+/* Estilos de los párrafos */
+p {
+    color: yellow;
+    line-height: 1.6;
+}
+
+/* Footer */
 footer {
-    background-color: #000;
-    color: #f0d75d;
     text-align: center;
-    padding: 20px 0;
-    border-top: 3px solid #7b1f1f; /* Bordó */
-    margin-top: 20px;
+    color: yellow;
+    padding-top: 10px;
 }
