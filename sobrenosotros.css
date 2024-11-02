@@ -1,0 +1,18 @@
+/* Fuente y estilo general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c; /* Fondo gris oscuro */
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+    background-color: #800020; /* Bordó elegante */
+   
