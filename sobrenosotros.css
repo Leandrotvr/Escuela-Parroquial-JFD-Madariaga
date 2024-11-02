@@ -1,18 +1,53 @@
-/* Fuente y estilo general */
-* {
+/* Estilos básicos para la página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: yellow;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    background-color: #1c1c1c; /* Fondo gris oscuro */
-    color: #f5f5f5;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-}
-
-/* Encabezado */
 .header {
-    background-color: #800020; /* Bordó elegante */
-   
+    background-color: #8B0000; /* Color burdeos */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #8B0000; /* Color burdeos */
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
