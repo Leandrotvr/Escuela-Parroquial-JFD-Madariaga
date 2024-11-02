@@ -1,0 +1,100 @@
+/* Configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Colores principales */
+header {
+    background-color: #7b1f1f; /* Bordó */
+    color: #f0d75d; /* Amarillo */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #5a1a1a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0d75d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de bienvenida */
+section#inicio {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section#inicio h2 {
+    color: #7b1f1f;
+    margin-bottom: 20px;
+}
+
+section#inicio p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+section#inicio .btn {
+    background-color: #7b1f1f;
+    color: #f0d75d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section#inicio .btn:hover {
+    background-color: #5a1a1a;
+}
+
+/* Secciones internas */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #7b1f1f;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #7b1f1f;
+    color: #f0d75d;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
