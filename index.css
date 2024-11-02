@@ -7,20 +7,23 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    background-color: #000; /* Fondo negro */
+    color: #f0d75d; /* Texto amarillo */
 }
 
-/* Colores principales */
+/* Encabezado */
 header {
     background-color: #7b1f1f; /* Bordó */
-    color: #f0d75d; /* Amarillo */
+    color: #f0d75d;
     padding: 20px 0;
     text-align: center;
+    border-bottom: 3px solid #f0d75d; /* Línea amarilla */
 }
 
 nav {
-    background-color: #5a1a1a;
+    background-color: #000;
     padding: 10px 0;
+    border-bottom: 3px solid #7b1f1f; /* Bordó */
 }
 
 nav ul {
@@ -40,18 +43,21 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #7b1f1f;
 }
 
 /* Sección de bienvenida */
 section#inicio {
     padding: 60px 0;
-    background-color: #f9f9f9;
+    background-color: #1a1a1a;
     text-align: center;
+    border: 2px solid #7b1f1f;
+    margin: 20px;
+    border-radius: 8px;
 }
 
 section#inicio h2 {
-    color: #7b1f1f;
+    color: #f0d75d;
     margin-bottom: 20px;
 }
 
@@ -69,17 +75,22 @@ section#inicio .btn {
 }
 
 section#inicio .btn:hover {
-    background-color: #5a1a1a;
+    background-color: #f0d75d;
+    color: #000;
 }
 
 /* Secciones internas */
 section {
     padding: 60px 0;
+    background-color: #1a1a1a;
+    border: 2px solid #7b1f1f; /* Bordó */
+    margin: 20px;
+    border-radius: 8px;
 }
 
 section h2 {
     text-align: center;
-    color: #7b1f1f;
+    color: #f0d75d;
     margin-bottom: 20px;
 }
 
@@ -92,9 +103,10 @@ section h2 {
 
 /* Pie de página */
 footer {
-    background-color: #7b1f1f;
+    background-color: #000;
     color: #f0d75d;
     text-align: center;
     padding: 20px 0;
+    border-top: 3px solid #7b1f1f; /* Bordó */
     margin-top: 20px;
 }
